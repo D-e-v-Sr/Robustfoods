@@ -124,12 +124,12 @@ export function ClosingSection() {
 
         <Reveal className="closing-contact-card" delay={0.1}>
           <div className="contact-card-top"><Eyebrow light>Prepared by</Eyebrow><Pill tone="lime">Proposal contact</Pill></div>
-            <h3>Your Studio /<br />Developer Name</h3>
+            <h3>Sharaf</h3>
             <div className="contact-card-rule" />
             <dl id="contact-details">
-              <div><dt>Email</dt><dd>your.email@example.com</dd></div>
-              <div><dt>Phone</dt><dd>+00 000 000 0000</dd></div>
-              <div><dt>Website</dt><dd>www.yourwebsite.com</dd></div>
+              <div><dt>Email</dt><dd>dev.sharafu@gmail.com</dd></div>
+              <div><dt>Phone</dt><dd>+91 9048 85 85 58</dd></div>
+              <div><dt>Website</dt><dd>devsr.vercel.app</dd></div>
             </dl>
             <span className="contact-placeholder-note">Update with actual contact details.</span>
         </Reveal>

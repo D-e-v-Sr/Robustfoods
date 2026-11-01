@@ -163,7 +163,7 @@ export function VisitorGrowthSection() {
       </div>
 
       <div className="traffic-system">
-        <div className="traffic-system-label"><Eyebrow>Connected acquisition routes</Eyebrow><span>Illustrative, not a volume forecast</span></div>
+        <div className="traffic-system-label"><Eyebrow>Connected acquisition routes</Eyebrow><span>Traffic to online store</span></div>
         <div className="traffic-diagram">
           <div className="traffic-channel-list">
             {trafficChannels.slice(0, 2).map(({ title, subtitle, icon: Icon }, index) => (
@@ -176,8 +176,8 @@ export function VisitorGrowthSection() {
           <div className="traffic-lines traffic-lines-left" aria-hidden="true"><span /><span /></div>
           <div className="traffic-destination">
             <span className="destination-ring"><ShoppingBag size={24} aria-hidden="true" /></span>
-            <strong>robustfoods.com</strong>
-            <small>Brand · catalogue · store</small>
+            <strong>Online Store</strong>
+            <small>Products · Cart · Checkout</small>
           </div>
           <div className="traffic-lines traffic-lines-right" aria-hidden="true"><span /><span /></div>
           <div className="traffic-channel-list">
@@ -189,7 +189,7 @@ export function VisitorGrowthSection() {
             ))}
           </div>
         </div>
-        <div className="traffic-outcomes"><span>Discovery</span><span>Useful content</span><span>Product confidence</span><span>Order or enquiry</span></div>
+        <div className="traffic-outcomes"><span>Discovery</span><span>Browse Products</span><span>Engage</span><span>Purchase</span></div>
       </div>
 
       <div className="growth-tactic-grid">

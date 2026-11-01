@@ -91,6 +91,23 @@ export function BusinessSection() {
             description="This document outlines the technical scope for building a complete online store - page structure, e-commerce configuration, payment integration, traffic acquisition, and conversion optimization."
           />
         </div>
+
+        <Reveal className="understanding-visual" delay={0.08}>
+          <figure className="editorial-photo editorial-photo-tall">
+            <Image
+              src="/website.png"
+              alt="E-commerce website"
+              fill
+              sizes="(max-width: 900px) 100vw, 42vw"
+              className="editorial-photo-image"
+              style={{ objectFit: 'contain' }}
+            />
+            <figcaption className="photo-caption">
+              <span>Complete online store solution</span>
+              <span>Pages · Setup · Payments · Growth</span>
+            </figcaption>
+          </figure>
+        </Reveal>
       </div>
     </SectionFrame>
   )
@@ -118,6 +135,18 @@ export function OpportunitySection() {
             </li>
           ))}
         </ol>
+
+        <Reveal className="discovery-diagram" delay={0.1}>
+          <div style={{ position: 'relative', width: '100%', height: '400px', borderRadius: '8px', overflow: 'hidden' }}>
+            <Image
+              src="/checkout.png"
+              alt="E-commerce checkout page"
+              fill
+              style={{ objectFit: 'cover' }}
+              sizes="(max-width: 900px) 100vw, 50vw"
+            />
+          </div>
+        </Reveal>
       </div>
     </SectionFrame>
   )
